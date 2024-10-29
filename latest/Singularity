@@ -1,0 +1,9 @@
+Bootstrap: docker
+From: python:3.6.15
+
+%environment
+  export LC_ALL=en_US.UTF-8
+
+%post
+  pip3 install signatureanalyzer
+
